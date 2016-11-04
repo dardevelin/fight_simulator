@@ -1,11 +1,80 @@
-<html>
 
-  <head>
-    <title>
-    </title>
-  </head>
-  <body>
-    <p> It works</p>
-  </body>
-  
-</html>
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+		<meta charset="utf-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+
+		<title>MMA Fight Simulator</title>
+
+		<!-- Basic favicon -->
+		<link rel="shortcut icon" href="fight_simulator/static/images/favicon.ico" type="image/x-icon">
+
+		<!-- CSS -->
+
+		<!-- Bootstrap CDN-->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+		<!-- Bootstrap Select CDN -->
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.11.2/css/bootstrap-select.css">
+		<!-- Fight Simulator -->
+        <link rel="stylesheet" href="fight_simulator/static/css/main.css">
+		
+		<!-- JavaScript -->
+		<!--jQuery -->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+		<!-- Bootstrap CDN-->
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+		<!-- Bootstrap Select CDN-->
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.11.2/js/bootstrap-select.js"></script>
+
+    </head>
+
+    <body>
+		<div class="navbar navbar-inverse navbar-static-top" role="navigation">
+		    <div class="container">
+				<div class="navbar-header">
+			    	<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+						<span class="sr-only">Toggle navigation</span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+			    	</button>
+			    	<a class="navbar-brand" href="/"><img class="navbar-brand alt="Brand" src="fight_simulator/static/images/logo2.png"></a>
+			    </div>
+
+				<div class="collapse navbar-collapse">
+					<ul class="nav navbar-nav">
+
+						
+						<li><a href="/create_user">Register</a></li>						
+						<li><a href="/login">Login</a></li>
+						<li><a href="/howitworks">Instructions</a></li>
+						
+			    		
+			    		
+
+					</ul>
+				</div>
+			</div>
+		</div>
+		
+				
+		        
+        
+
+		<div class="container">
+			
+
+<div class="jumbotron" id="jumbo">
+  	<div id="welcome" class="container-fluid">
+  		<h1>MMA Fight Simulator</h1>
+  		<p>Predict the outcome of a match between your favorite fighters</p>
+  		<p><a class="btn btn-primary btn-lg" href="/fight" role="button">FIGHT!</a></p>
+  	</div>
+</div>
+
+
+		</div>
+	</body>
+</html>    
